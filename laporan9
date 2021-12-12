@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Tugas Kelompok 5</title>
+
+    <!-- CSS -->
+    <style>
+        h2, h3{
+            text-align: center;
+        }
+        .nama_kelompok{
+            text-align: center;
+        }
+        .logoUTY{
+            width: 300px;
+            height: 270px;
+        }
+        .diagram_konteks{
+            width: 500px;
+            height: 300px;
+        }
+        .dfd_lv1{
+            width: 700px;
+            height: 350px;
+        }
+        .dfd_lv2{
+            width: 500px;
+            height: 300px;
+        }
+        .prototype{
+            width: 370px;
+            height: 270px;
+        }
+        .login, .signUp{
+            width: 300px;
+            height: 400px;
+        }
+        .pemesanan, .daftarMobil, .jadwal, .laporan{
+            width: 800px;
+            height: 480px;
+        }
+        .tab{
+            padding-left: 20px;
+        }
+        .tab2{
+            padding-left: 40px;
+        }
+        .p_bab1, .p_bab2, .p_bab3{
+            padding-left: 20px;
+        }
+        .bab2{
+            padding-left: 40px;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- COVER LAPORAN -->
+    <h2>SISTEM INFORMASI PENYEWAAN MOBIL BERBASIS WEB</h2>
+    <h2>DENGAN METODE PROTOTYPE</h2>
+    <br>
+    <center><img class="logoUTY" src="uty.png"></center>
+    <br>
+    <h3>Kelompok 5:</h3>
+    <p class="nama_kelompok">Muhammad Lukman Hakim     (5200411171)</p>
+    <p class="nama_kelompok">Septo Distiano Rifky      (5200411191)</p>
+    <p class="nama_kelompok">Ardhian Alamsyah P.P      (5200411230)</p>
+    <p class="nama_kelompok">Dimas Aziz Hidayatulloh   (5200411321)</p>
+    <p class="nama_kelompok">Muhammad Irfannudin       (5200411342)</p>
+    <p class="nama_kelompok">Miftahul 'Azam Fajri      (5200411351)</p>
+    <br>
+    <h2>TEKNIK INFORMATIKA</h2>
+    <h2>FAKULTAS TEKNOLOGI & SAINS</h2>
+    <h2>UNIVERSITAS TEKNOLOGI YOGYAKARTA</h2>
+    <H2>2021</H2>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- BAB 1 -->
+    <h3>BAB I</h3>
+    <h3>PENDAHULUAN</h3>
+    <h4>1. Latar Belakang</h4>
+    <p>Perkembangan dan kemajuan teknologi informasi saat ini semakin pesat. Teknologi dan informasi bukan hal yang baru dalam kehidupan masyarakat saat ini, karena segala bentuk operasional perusahaan sudah mulai menggunakan teknologi informasi. Dengan adanya perkembangan tersebut, sumber daya manusia dituntut untuk mampu mengikuti perkembangan dan menerapkan Teknologi Informasi agar dapat bersaing dengan kompetitor. Kemudahan dan manfaat yang ada pada penggunaan internet telah dimanfaatkan oleh masyarakat dalam beberapa sector bidang. Salah satunya dalam bidang bisnis yang terus menerus mengalami perkembangan</p>
+    <p>Salah satu contoh pemanfaatan internet dalam bidang bisnis adalah bidang penjualan dan pemesanan secara online. Rental mobil merupakan usaha jasa penyewaan kendaraan roda empat. PT. Sewa Mobil Bersama merupakan sebuah perusahaan jasa penyewaan mobil yang berlokasi di Jl. Pemuda nomor 71, Semarang, Jawa Tengah. Sistem penyewaan yang dilakukan PT. Sewa Mobil Bersama belum sepenuhnya terkomputerisasi.</p>
+    <p>Penyewaan mobil memiliki daftar harga yang bervariasi menurut jenis mobil dan waktu lamanya menyewa mobil tersebut. Saat ini calon penyewa masih harus datang langsung ke kantor atau menghubungi lewat telepon untuk menanyakan mobil yang tersedia, booking, hingga pembayaran langsung ditempat.</p>
+    <p>Terdapat beberapa masalah yang sering muncul, yaitu ketika penyewa telat mengembalikan mobil dan harus membayar denda. Karyawan yang bersangkutan harus menghitung secara manual denda yang berlaku sesuai dengan jenis dan waktu keterlambatan. Pembuatan laporan pun masih dilakukan penghitungan dengan menggunakan Ms. Excel. Dengan ini maka dibutuhkan “Aplikasi Penyewa Mobil berbasis web di PT. Sewa Mobil Bersama.</p>
+    <h4 class="tab">1.1 Rumusan Masalah</h4>
+    <p class="p_bab1">Berdasarkan permasalahan di atas maka dibuatlah Sistem Informasi Penyewaan Mobil Berbasis Web yang merupakan sebuah sistem untuk mengolah data transaksi penyewaan dan pengembalian mobil secara keseluruhan serta memberikan informasi mengenai ketersediaan mobil beserta harga sewa perharinya secara online. Dengan menggunakan sistem informasi berbasis web, maka informasi dapat di akses kapan saja dan dimana saja. Sehingga penyebaran informasi mengenai penyewaan mobil ini lebih cepat tersebar luas. Hasil dari sistem informasi ini diharapkan dapat mengatasi masalah yang terjadi dan dapat mempermudah pihak perusahaan dan pelanggan dalam melakukan proses pelayanan penyewaan dan pengembalian mobil.</p>
+    <h4 class="tab">1.2 Tujuan Penelitian</h4>
+    <p class="p_bab1">Penelitian ini bermanfaat untuk membantu proses penyewaan mobil di PT. Sewa Mobil Bersama secara otomatis dan terintegrasi dengan bantuan aplikasi sistem informasi. Selain itu, hasil penelitian ini penulis harapkan dapat menjadi prototype untuk PT. Sewa Mobil Bersama dalam rangka pengembangan perusahaan.</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- BAB 2 -->
+    <h3>BAB 2</h3>
+    <h3>LANDASAN TEORI</h3>
+    <h4>1. Landasan Teori</h4>
+    <h4 class="tab">1.1	Rapid application development (RAD)</h4>
+    <p class="p_bab2">Rapid application development (RAD) adalah metode yang berfokus pada pengembangan aplikasi secara cepat, melalui pengulangan dan feedback berulang-ulang. RAD diajukan oleh IBM pada tahun 1980 sampai 1990-an, ketika permintaan terhadap aplikasi semakin meningkat. </p>
+    <h4 class="tab">1.2	Tahapan Metode Rapid application development  (RAD)</h4>
+    <center><img src="tahapan_rad.jpeg" class="tahapan_prototype"></center>
+    <h4 class="tab2">1) Pengumpulan Kebutuhan</h4>
+    <p class="bab2">Tahapan ini merupakan tahap awal dalam suatu pengembangan sistem, dimana pada tahap ini dilakukan identifikasi masalah dan pengumpulan data yang diperoleh dari pengguna atau stakeholder pengguna yang bertujuan untuk mengidentifikasi maksud akhir atau tujuan dari sistem dan kebutuhan informasi yang diinginkan. Pada tahap ini keterlibatan kedua belah sangatlah penting dalam mengidentifikasi kebutuhan untuk pengembangan suatu sistem.</p>
+    <h4 class="tab2">2) Desain Sistem.</h4>
+    <p class="bab2">Di dalam tahap desain sistem, keaktifan pengguna yang terlibat sangatlah penting untuk mencapai tujuan karena pada tahapan ini dilakukan proses desain dan proses perbaikan desain secara berulang-ulang apabila masih terdapat ketidaksesuaian desain terhadap kebutuhan pengguna yang telah diidentifikasi pada tahapan sebelumnya. Luaran dari tahapan ini adalah spesifikasi software yang meliputi organisasi di dalam sistem secara umum, struktur data, dan lain-lain.</p>
+    <h4 class="tab2">3)	Proses pengembangan dan pengumpulan feedback.</h4>
+    <p class="bab2">Pada tahap ini desain sistem yang telah dibuat dan disepakati, diubah ke dalam bentuk aplikasi versi beta sampai dengan versi final. Pada tahapan ini juga programmer harus terus-menerus melakukan kegiatan pengembangan dan integerasi dengan bagian-bagian lainnya terus mempertimbangkan feedback dari pengguna atau klien. Jika proses berjalan lancar maka dapat berlanjut ke tahapan berikutnya, sedangkan jika aplikasi yang dikembangkan belum menjawab kebutuhan, programmer akan kembali ke tahapan desain sistem.</p>
+    <h4 class="tab2">4) Implementasi atau penyelesaian produk.</h4>
+    <p class="bab2">Tahapan ini merupakan tahapan dimana programmer menerapkan desain dari suatu sistem yang telah disetujui pada tahapan sebelumnya. Sebelum sistem diterapkan, terlebih dahulu dilakukan proses pengujian terhadap program untuk mendeteksi kesalahan yang ada pada sistem yang dikembangkan. Pada tahap ini biasa memberikan tanggapan akan sistem yang sudah dibuat dan mendapat persetujuan mengenai sistem tersebut.</p>
+
+</body>
+</html>
